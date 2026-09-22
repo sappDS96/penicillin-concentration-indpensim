@@ -1,4 +1,4 @@
-# Sensor virtual de concentración de penicilina
+# Análisis predictivo aplicado a la producción de penicilina
 
 Este proyecto utiliza señales operativas para estimar la **concentración actual de penicilina** en un proceso biofarmacéutico simulado. Evalúa lotes completos que el modelo no ha visto y compara sus resultados con una curva típica de concentración por tiempo y estrategia de control.
 
