@@ -1,0 +1,38 @@
+﻿posicion_csv_desde_cero,nombre_original,variable,descripcion,uso
+0,Time (h),tiempo_h,"Tiempo transcurrido desde el inicio del lote, h",Entrada operativa o configuración
+1,Aeration rate(Fg:L/h),aireacion,"Aireación, escala original (el encabezado indica L/h)",Entrada operativa o configuración
+2,Agitator RPM(RPM:RPM),agitacion_rpm,"Velocidad del agitador, rpm","Conservada, no predictora"
+3,Sugar feed rate(Fs:L/h),azucar_l_h,"Alimentación de azúcar, L/h",Entrada operativa o configuración
+4,Acid flow rate(Fa:L/h),acido_l_h,"Adición de ácido, L/h",Entrada operativa o configuración
+5,Base flow rate(Fb:L/h),base_l_h,"Adición de base, L/h",Entrada operativa o configuración
+6,Heating/cooling water flow rate(Fc:L/h),refrigeracion_l_h,"Caudal de refrigeración, L/h",Entrada operativa o configuración
+7,Heating water flow rate(Fh:L/h),calefaccion_l_h,"Caudal de calefacción, L/h",Entrada operativa o configuración
+8,Water for injection/dilution(Fw:L/h),agua_l_h,"Agua de dilución, L/h",Entrada operativa o configuración
+9,Air head pressure(pressure:bar),presion_bar,"Presión de cabeza, bar",Entrada operativa o configuración
+10,Dumped broth flow(Fremoved:L/h),extraccion_l_h,"Extracción de caldo, signo original negativo, L/h",Entrada operativa o configuración
+11,Substrate concentration(S:g/L),sustrato_g_l,"Concentración de sustrato del simulador, g/L","Conservada, no predictora"
+12,Dissolved oxygen concentration(DO2:mg/L),oxigeno_disuelto_mg_l,"Oxígeno disuelto, mg/L",Entrada operativa o configuración
+13,Penicillin concentration(P:g/L),penicilina_g_l,"Concentración de penicilina del simulador, g/L",Objetivo del simulador
+14,Vessel Volume(V:L),volumen_l,"Volumen del caldo, L",Entrada operativa o configuración
+15,Vessel Weight(Wt:Kg),peso_kg,"Peso del recipiente/caldo según fuente, kg",Entrada operativa o configuración
+16,pH(pH:pH),ph,pH,Entrada operativa o configuración
+17,Temperature(T:K),temperatura_k,"Temperatura, K",Entrada tras convertir K a °C
+18,Generated heat(Q:kJ),calor_generado,"Calor generado, escala original","Conservada, no predictora"
+19,carbon dioxide percent in off-gas(CO2outgas:%),co2_gas,"CO2 del gas de salida, escala original",Entrada operativa o configuración
+20,PAA flow(Fpaa:PAA flow (L/h)),paa_alimentacion_l_h,"Alimentación de ácido fenilacético (PAA), L/h",Entrada operativa o configuración
+21,PAA concentration offline(PAA_offline:PAA (g L^{-1})),paa_laboratorio,"PAA de laboratorio, unidades pendientes de aclarar","Conservada, no predictora"
+22,Oil flow(Foil:L/hr),aceite_l_h,"Alimentación de aceite, L/h",Entrada operativa o configuración
+23,NH_3 concentration off-line(NH3_offline:NH3 (g L^{-1})),nh3_laboratorio,"NH3 de laboratorio, unidades pendientes de aclarar","Conservada, no predictora"
+24,Oxygen Uptake Rate(OUR:(g min^{-1})),consumo_oxigeno,"Consumo de oxígeno, escala original","Conservada, no predictora"
+25,Oxygen in percent in off-gas(O2:O2  (%)),o2_gas,"O2 del gas de salida, escala original",Entrada operativa o configuración
+26,Offline Penicillin concentration(P_offline:P(g L^{-1})),penicilina_laboratorio_g_l,"Penicilina de laboratorio, g/L","Conservada, no predictora"
+27,Offline Biomass concentratio(X_offline:X(g L^{-1})),biomasa_laboratorio_g_l,"Biomasa de laboratorio, g/L","Conservada, no predictora"
+28,Carbon evolution rate(CER:g/h),evolucion_carbono,"Evolución de carbono, escala original","Conservada, no predictora"
+29,Ammonia shots(NH3_shots:kgs),amonio_kg,"Adiciones de amonio, kg","Conservada, no predictora"
+30,Viscosity(Viscosity_offline:centPoise),viscosidad_laboratorio,"Viscosidad de laboratorio, centipoise según fuente","Conservada, no predictora"
+31,Fault reference(Fault_ref:Fault ref),falla_activa,"Intervalo con falla activa, 0/1","Exclusión de lotes con fallas, nunca predictor"
+32,0 - Recipe driven 1 - Operator controlled(Control_ref:Control ref),control_operador,"Control por operador, 0/1",Entrada operativa o configuración
+33,1- No Raman spec,modo_pat,"Modo de operación: 1 convencional, 2 PAT",Entrada operativa o configuración
+34, 1-Raman spec recorded,lote_repetido,Identificador de lote redundante,"Identificación, nunca predictor"
+35,2-PAT control(PAT_ref:PAT ref),lote,Identificador validado del lote,"Identificación, nunca predictor"
+36,Batch reference(Batch_ref:Batch ref),lote_con_falla,"Lote que contiene alguna falla, 0/1","Exclusión de lotes con fallas, nunca predictor"

@@ -1,0 +1,101 @@
+﻿lote,estrategia,lote_con_falla,registros,duracion_h,particion
+1,Receta,0,1130,226.0,Prueba normal
+2,Receta,0,1150,230.0,Entrenamiento
+3,Receta,0,1390,278.0,Entrenamiento
+4,Receta,0,1150,230.0,Entrenamiento
+5,Receta,0,895,179.0,Entrenamiento
+6,Receta,0,1150,230.0,Entrenamiento
+7,Receta,0,1160,232.0,Entrenamiento
+8,Receta,0,1150,230.0,Prueba normal
+9,Receta,0,1260,252.0,Entrenamiento
+10,Receta,0,1150,230.0,Validación
+11,Receta,0,1010,202.0,Entrenamiento
+12,Receta,0,1150,230.0,Entrenamiento
+13,Receta,0,1080,216.0,Validación
+14,Receta,0,1150,230.0,Entrenamiento
+15,Receta,0,905,181.0,Prueba normal
+16,Receta,0,1150,230.0,Entrenamiento
+17,Receta,0,940,188.0,Entrenamiento
+18,Receta,0,1150,230.0,Validación
+19,Receta,0,1035,207.0,Prueba normal
+20,Receta,0,1150,230.0,Entrenamiento
+21,Receta,0,1140,228.0,Entrenamiento
+22,Receta,0,1150,230.0,Validación
+23,Receta,0,1320,264.0,Entrenamiento
+24,Receta,0,1150,230.0,Prueba normal
+25,Receta,0,1305,261.0,Validación
+26,Receta,0,1150,230.0,Entrenamiento
+27,Receta,0,1055,211.0,Validación
+28,Receta,0,1150,230.0,Prueba normal
+29,Receta,0,1450,290.0,Entrenamiento
+30,Receta,0,1150,230.0,Entrenamiento
+31,Operador,0,1250,250.0,Entrenamiento
+32,Operador,0,1150,230.0,Validación
+33,Operador,0,1300,260.0,Prueba normal
+34,Operador,0,1150,230.0,Entrenamiento
+35,Operador,0,980,196.0,Validación
+36,Operador,0,1150,230.0,Validación
+37,Operador,0,1050,210.0,Entrenamiento
+38,Operador,0,1150,230.0,Entrenamiento
+39,Operador,0,1175,235.0,Entrenamiento
+40,Operador,0,1150,230.0,Validación
+41,Operador,0,1215,243.0,Entrenamiento
+42,Operador,0,1150,230.0,Entrenamiento
+43,Operador,0,1155,231.0,Entrenamiento
+44,Operador,0,1150,230.0,Entrenamiento
+45,Operador,0,1310,262.0,Prueba normal
+46,Operador,0,1150,230.0,Entrenamiento
+47,Operador,0,1140,228.0,Prueba normal
+48,Operador,0,1150,230.0,Prueba normal
+49,Operador,0,1160,232.0,Entrenamiento
+50,Operador,0,1150,230.0,Entrenamiento
+51,Operador,0,1125,225.0,Entrenamiento
+52,Operador,0,1150,230.0,Entrenamiento
+53,Operador,0,965,193.0,Entrenamiento
+54,Operador,0,1150,230.0,Entrenamiento
+55,Operador,0,1120,224.0,Entrenamiento
+56,Operador,0,1150,230.0,Prueba normal
+57,Operador,0,1170,234.0,Entrenamiento
+58,Operador,0,1150,230.0,Validación
+59,Operador,0,1020,204.0,Prueba normal
+60,Operador,0,1150,230.0,Validación
+61,PAT,0,1205,241.0,Entrenamiento
+62,PAT,0,1150,230.0,Entrenamiento
+63,PAT,0,1150,230.0,Prueba normal
+64,PAT,0,1150,230.0,Prueba normal
+65,PAT,0,1155,231.0,Entrenamiento
+66,PAT,0,1150,230.0,Validación
+67,PAT,0,835,167.0,Entrenamiento
+68,PAT,0,1150,230.0,Entrenamiento
+69,PAT,0,1125,225.0,Entrenamiento
+70,PAT,0,1150,230.0,Entrenamiento
+71,PAT,0,1070,214.0,Entrenamiento
+72,PAT,0,1150,230.0,Validación
+73,PAT,0,1180,236.0,Entrenamiento
+74,PAT,0,1150,230.0,Entrenamiento
+75,PAT,0,960,192.0,Validación
+76,PAT,0,1150,230.0,Validación
+77,PAT,0,1025,205.0,Entrenamiento
+78,PAT,0,1150,230.0,Prueba normal
+79,PAT,0,1175,235.0,Entrenamiento
+80,PAT,0,1150,230.0,Prueba normal
+81,PAT,0,1100,220.0,Entrenamiento
+82,PAT,0,1150,230.0,Entrenamiento
+83,PAT,0,1205,241.0,Entrenamiento
+84,PAT,0,1150,230.0,Validación
+85,PAT,0,1000,200.0,Validación
+86,PAT,0,1150,230.0,Entrenamiento
+87,PAT,0,1110,222.0,Entrenamiento
+88,PAT,0,1150,230.0,Prueba normal
+89,PAT,0,1155,231.0,Entrenamiento
+90,PAT,0,1150,230.0,Prueba normal
+91,Receta,1,1290,258.0,Excluidos por fallas
+92,Receta,1,1150,230.0,Excluidos por fallas
+93,Receta,1,1050,210.0,Excluidos por fallas
+94,Receta,1,1150,230.0,Excluidos por fallas
+95,Receta,1,1055,211.0,Excluidos por fallas
+96,Receta,1,1150,230.0,Excluidos por fallas
+97,Receta,1,1125,225.0,Excluidos por fallas
+98,Receta,1,1150,230.0,Excluidos por fallas
+99,Receta,1,1255,251.0,Excluidos por fallas
+100,Receta,1,1150,230.0,Excluidos por fallas

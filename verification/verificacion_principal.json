@@ -1,0 +1,59 @@
+{
+  "estado": "correcto",
+  "exportaciones": {
+    "operacion_proceso.csv": {
+      "filas": 113935,
+      "columnas": 23
+    },
+    "lotes_particiones.csv": {
+      "filas": 100,
+      "columnas": 6
+    },
+    "predicciones_prueba.csv": {
+      "filas": 20490,
+      "columnas": 10
+    },
+    "metricas_validacion.csv": {
+      "filas": 7,
+      "columnas": 6
+    },
+    "metricas_prueba.csv": {
+      "filas": 2,
+      "columnas": 5
+    },
+    "estabilidad_lotes.csv": {
+      "filas": 3,
+      "columnas": 7
+    },
+    "errores_por_lote.csv": {
+      "filas": 18,
+      "columnas": 5
+    },
+    "errores_por_tramo.csv": {
+      "filas": 5,
+      "columnas": 4
+    },
+    "errores_por_nivel.csv": {
+      "filas": 3,
+      "columnas": 4
+    },
+    "errores_por_estrategia.csv": {
+      "filas": 3,
+      "columnas": 3
+    },
+    "sensibilidad_variables.csv": {
+      "filas": 10,
+      "columnas": 3
+    },
+    "calidad_datos.csv": {
+      "filas": 39,
+      "columnas": 4
+    },
+    "diccionario_variables.csv": {
+      "filas": 37,
+      "columnas": 5
+    }
+  },
+  "lotes_prueba": 18,
+  "sin_fuga_por_lote": true
+}

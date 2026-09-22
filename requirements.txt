@@ -1,0 +1,12 @@
+pandas==2.2.3
+numpy==2.2.4
+matplotlib==3.10.1
+scipy==1.16.0
+scikit-learn==1.7.2
+xgboost==3.2.0
+joblib==1.5.2
+nbformat==5.10.4
+nbclient==0.10.2
+nbconvert==7.16.6
+ipykernel==6.29.5
+jupyter-client==8.6.3
