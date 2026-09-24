@@ -7555,7 +7555,7 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a0786e1d">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=a0786e1d">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -7603,22 +7603,7 @@ a.anchor-link {
 
 <span class="k">def</span><span class="w"> </span><span class="nf">numero</span><span class="p">(</span><span class="n">valor</span><span class="p">,</span> <span class="n">decimales</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
     <span class="k">return</span> <span class="sa">f</span><span class="s1">'</span><span class="si">{</span><span class="n">valor</span><span class="si">:</span><span class="s1">,.</span><span class="si">{</span><span class="n">decimales</span><span class="si">}</span><span class="s1">f</span><span class="si">}</span><span class="s1">'</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">','</span><span class="p">,</span> <span class="s1">'X'</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'.'</span><span class="p">,</span> <span class="s1">','</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">'X'</span><span class="p">,</span> <span class="s1">'.'</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s1">'Entorno preparado. Todas las rutas del proyecto son relativas.'</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Entorno preparado. Todas las rutas del proyecto son relativas.
-</pre>
 </div>
 </div>
 </div>
@@ -7787,8 +7772,8 @@ Tabla de estadísticas: (100, 5)
     <span class="s1">'Concentración de sustrato del simulador, g/L'</span><span class="p">,</span> <span class="s1">'Oxígeno disuelto, mg/L'</span><span class="p">,</span>
     <span class="s1">'Concentración de penicilina del simulador, g/L'</span><span class="p">,</span> <span class="s1">'Volumen del caldo, L'</span><span class="p">,</span> <span class="s1">'Peso del recipiente/caldo según fuente, kg'</span><span class="p">,</span>
     <span class="s1">'pH'</span><span class="p">,</span> <span class="s1">'Temperatura, K'</span><span class="p">,</span> <span class="s1">'Calor generado, escala original'</span><span class="p">,</span> <span class="s1">'CO2 del gas de salida, escala original'</span><span class="p">,</span>
-    <span class="s1">'Alimentación de ácido fenilacético (PAA), L/h'</span><span class="p">,</span> <span class="s1">'PAA de laboratorio, unidades pendientes de aclarar'</span><span class="p">,</span>
-    <span class="s1">'Alimentación de aceite, L/h'</span><span class="p">,</span> <span class="s1">'NH3 de laboratorio, unidades pendientes de aclarar'</span><span class="p">,</span>
+    <span class="s1">'Alimentación de ácido fenilacético (PAA), L/h'</span><span class="p">,</span> <span class="s1">'PAA de laboratorio, unidad no especificada en la fuente'</span><span class="p">,</span>
+    <span class="s1">'Alimentación de aceite, L/h'</span><span class="p">,</span> <span class="s1">'NH3 de laboratorio, unidad no especificada en la fuente'</span><span class="p">,</span>
     <span class="s1">'Consumo de oxígeno, escala original'</span><span class="p">,</span> <span class="s1">'O2 del gas de salida, escala original'</span><span class="p">,</span>
     <span class="s1">'Penicilina de laboratorio, g/L'</span><span class="p">,</span> <span class="s1">'Biomasa de laboratorio, g/L'</span><span class="p">,</span>
     <span class="s1">'Evolución de carbono, escala original'</span><span class="p">,</span> <span class="s1">'Adiciones de amonio, kg'</span><span class="p">,</span> <span class="s1">'Viscosidad de laboratorio, centipoise según fuente'</span><span class="p">,</span>
@@ -7964,7 +7949,7 @@ Tabla de estadísticas: (100, 5)
 <th>21</th>
 <td>21</td>
 <td>paa_laboratorio</td>
-<td>PAA de laboratorio, unidades pendientes de acl...</td>
+<td>PAA de laboratorio, unidad no especificada en ...</td>
 </tr>
 <tr>
 <th>22</th>
@@ -7976,7 +7961,7 @@ Tabla de estadísticas: (100, 5)
 <th>23</th>
 <td>23</td>
 <td>nh3_laboratorio</td>
-<td>NH3 de laboratorio, unidades pendientes de acl...</td>
+<td>NH3 de laboratorio, unidad no especificada en ...</td>
 </tr>
 <tr>
 <th>24</th>
@@ -8071,8 +8056,8 @@ Tabla de estadísticas: (100, 5)
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="C%C3%B3mo-interpreto-las-variables">Cómo interpreto las variables<a class="anchor-link" href="#C%C3%B3mo-interpreto-las-variables">¶</a></h3><p>La <strong>alimentación de azúcar y aceite</strong> aporta información sobre las entradas al cultivo. La <strong>aireación y el oxígeno disuelto</strong> describen parte de su entorno de operación. La <strong>temperatura, el pH y los caudales de regulación</strong> permiten observar cómo se mantiene el proceso.</p>
-<p>PAA corresponde a ácido fenilacético y PAT a tecnología analítica de procesos. Las señales de gas se conservarán en su escala publicada: un encabezado con porcentaje no basta para decidir si los valores se almacenan como fracción o porcentaje. Tampoco convertiré la aireación en un balance de masa sin verificar su unidad.</p>
-<p>La concentración continua de penicilina es la <strong>referencia del simulador</strong>. La utilizaré para entrenar y evaluar, pero no como entrada. El sustrato, el calor generado y los análisis offline tampoco entrarán en el modelo principal, para evitar depender de estados internos o mediciones cuya disponibilidad inmediata no está confirmada.</p>
+<p>PAA corresponde a ácido fenilacético y PAT a tecnología analítica de procesos. Las señales de gas se conservarán en su escala publicada: un encabezado con porcentaje no basta para decidir si los valores se almacenan como fracción o porcentaje. Tampoco convierto la aireación en un balance de masa porque la fuente no especifica su unidad con suficiente precisión.</p>
+<p>La concentración continua de penicilina es la <strong>referencia del simulador</strong>. La utilizaré para entrenar y evaluar, pero no como entrada. El sustrato, el calor generado y los análisis offline tampoco entrarán en el modelo principal, para evitar depender de estados internos o mediciones cuya disponibilidad inmediata no está documentada en la fuente.</p>
 </div>
 </div>
 </div>
@@ -8702,8 +8687,8 @@ Consumo de oxígeno con valores negativos: 1038
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="4.-Preparo-los-datos-para-el-sensor-virtual">4. Preparo los datos para el sensor virtual<a class="anchor-link" href="#4.-Preparo-los-datos-para-el-sensor-virtual">¶</a></h1><p>Utilizaré 18 señales operativas, el tiempo transcurrido, dos indicadores del modo de control y ocho características históricas. Los cambios a una hora quedan ausentes durante las primeras cinco lecturas de cada lote; la mediana para completarlos se aprenderá exclusivamente dentro de entrenamiento.</p>
-<p>No incluiré la concentración actual ni retardos de penicilina, el identificador del lote, las etiquetas de falla, la duración final ni los resultados de producción. Tampoco utilizaré análisis de laboratorio asociados a un momento sin confirmar cuándo estarían disponibles.</p>
-<p>Las señales seleccionadas se consideran disponibles al final de cada intervalo de 12 minutos en este experimento. Esa es una hipótesis operativa que tendría que comprobarse con instrumentación real. La curva objetivo procede del simulador y no valida por sí sola un sensor industrial.</p>
+<p>No incluiré la concentración actual ni retardos de penicilina, el identificador del lote, las etiquetas de falla, la duración final ni los resultados de producción. Tampoco utilizo análisis de laboratorio porque la fuente no documenta cuándo estarían disponibles durante una operación real.</p>
+<p>Las señales seleccionadas se consideran disponibles al final de cada intervalo de 12 minutos en este experimento. Esa disponibilidad es una hipótesis del experimento y no está demostrada para una instrumentación real. La curva objetivo procede del simulador y no valida por sí sola un sensor industrial.</p>
 </div>
 </div>
 </div>
@@ -9227,7 +9212,7 @@ Ausencias generadas al inicio de cada lote: 2000
 <td>1.0006</td>
 <td>1.5228</td>
 <td>0.9749</td>
-<td>0.8899</td>
+<td>0.9180</td>
 </tr>
 <tr>
 <th>1</th>
@@ -9236,7 +9221,7 @@ Ausencias generadas al inicio de cada lote: 2000
 <td>1.0075</td>
 <td>1.5468</td>
 <td>0.9742</td>
-<td>0.9272</td>
+<td>0.9986</td>
 </tr>
 <tr>
 <th>2</th>
@@ -9245,7 +9230,7 @@ Ausencias generadas al inicio de cada lote: 2000
 <td>1.0303</td>
 <td>1.5657</td>
 <td>0.9735</td>
-<td>0.7375</td>
+<td>2.7881</td>
 </tr>
 <tr>
 <th>3</th>
@@ -9254,7 +9239,7 @@ Ausencias generadas al inicio de cada lote: 2000
 <td>1.0366</td>
 <td>1.5933</td>
 <td>0.9726</td>
-<td>1.9425</td>
+<td>1.3297</td>
 </tr>
 <tr>
 <th>4</th>
@@ -9263,7 +9248,7 @@ Ausencias generadas al inicio de cada lote: 2000
 <td>1.0865</td>
 <td>1.7726</td>
 <td>0.9661</td>
-<td>19.9652</td>
+<td>23.1725</td>
 </tr>
 <tr>
 <th>5</th>
@@ -9281,7 +9266,7 @@ Ausencias generadas al inicio de cada lote: 2000
 <td>2.0749</td>
 <td>2.9107</td>
 <td>0.9085</td>
-<td>0.1474</td>
+<td>0.1673</td>
 </tr>
 </tbody>
 </table>
@@ -10268,7 +10253,7 @@ Ausencias generadas al inicio de cada lote: 2000
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="8.-Alcance-operativo-y-limitaciones">8. Alcance operativo y limitaciones<a class="anchor-link" href="#8.-Alcance-operativo-y-limitaciones">¶</a></h1><p>El sensor virtual estima la concentración actual a partir de señales de operación. Un resultado favorable indica capacidad para reproducir la referencia de IndPenSim en lotes reservados, dentro de estrategias conocidas. No demuestra precisión sobre concentraciones medidas en una planta real.</p>
-<p>La referencia continua de penicilina y los modelos comparten un mismo generador físico. Algunas relaciones pueden ser más estables que en una fábrica. Antes de una aplicación real habría que verificar unidades, disponibilidad de sensores, calibración, retrasos de laboratorio y rendimiento en campañas independientes.</p>
+<p>La referencia continua de penicilina y los modelos comparten un mismo generador físico. Algunas relaciones pueden ser más estables que en una fábrica. El alcance industrial queda condicionado por información que el simulador no aporta: unidades plenamente documentadas, disponibilidad y calibración de sensores, retrasos de laboratorio y rendimiento en campañas independientes.</p>
 <p>El experimento principal se entrena y evalúa sobre lotes sin fallas inyectadas. Esto define su dominio de operación. No se evalúa detección de fallas ni se extienden las conclusiones a operación anómala.</p>
 <p>El identificador de lote no es una fecha. La validación entre lotes no equivale a demostrar estabilidad a lo largo de años. Tampoco se optimizan recetas ni se recomiendan cambios de fabricación: la importancia predictiva no establece causalidad.</p>
 </div>
